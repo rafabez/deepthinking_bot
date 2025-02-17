@@ -98,7 +98,6 @@ Important
     Turn on emotional markers: "Wow, an unexpected turn!", "Hmm, this is an interesting idea..."
     Alternate rhetorical questions and hypotheses: "Why is there this condition here? Maybe...", "What if we try a combination of approaches?"
     Check for cognitive biases
-    Reflect in the <think></think> tags in the language that is more convenient for you, in English, your own
 """
 
 # Histórico de conversação separado por usuário/grupo
