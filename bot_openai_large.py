@@ -142,7 +142,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
     SEND_PROCESSING_MESSAGE = False
     user_message = update.message.text.strip()
-    bot_usernames = ["@jeguegpt_bot", "@jegueGPT"]
+    bot_usernames = ["@DeepThinker2025Bot"]
 
     # Verifica se o bot foi mencionado
     if not any(username in user_message for username in bot_usernames):
@@ -173,7 +173,7 @@ def main():
 
     # Configura aplicação do Telegram
     application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
-    bot_username = "@jeguegpt_bot"
+    bot_username = "@DeepThinker2025Bot"
     mention_filter = filters.Regex(bot_username)
     application.add_handler(MessageHandler(mention_filter, handle_message))
 
